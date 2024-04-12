@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #172a45, #3b4259);
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #ff6347;
+}
+
+.button {
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+header {
+  color: rgb(249, 249, 249);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+
+section {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+header nav {
+  display: flex;
+}
+
+#Menu {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+#Menu a {
+  font-size: 20px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+#Menu2 {
+  align-items: center;
+}
+
+header button img {
+  width: 17px;
+  align-items: center;
+}
+
+#karusel {
+  display: flex;
+  gap: 14px;
+  overflow: auto;
+  margin-top: 30px;
+}
+
+#karusel img {
+  width: 450px;
+  border-radius: 10px;
+}
+
+#Newspage {
+  gap: 14px;
+  align-items: center;
+  display: flex;
+}
+
+.Newsimg {
+  border: 1px solid lightslategray;
+}
+
+#Newspage img {
+  width: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#News {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("background.jpg");
+  padding-top: 2px;
+  margin-top: 10px;
+}
+
+.Mainpage {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 10px;
+}
+
+.Mainpage img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.Mainpage2 {
+  border-radius: 10px;
+  padding-top: 0px;
+}
+
+.Mainpage2 {
+  display: block;
+}
+
+.Mainpage2 a {
+  color: #ff6347;
+}
+
+span {
+  color: grey;
+}
+
+.Mainpage3 {
+  display: flex;
+  gap: 15px;
+}
+
+footer {
+  background: linear-gradient(to right, #172a45, #3b4259);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  bottom: 0;
+}
