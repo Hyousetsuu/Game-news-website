@@ -41,7 +41,7 @@ header {
 }
 
 #content img {
-  border-radius: 10px
+  border-radius: 10px;
 }
 section {
   padding-left: 50px;
@@ -153,4 +153,95 @@ footer {
 .item {
   height: 300px;
   background: green;
+}
+
+@media only screen and (max-width: 600px) {
+  #Menu {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .Gambar1 {
+    width: 200px;
+  }
+
+  .Gambar1 img {
+    width: 1000px;
+  }
+
+  section {
+    width: 100%;
+    display: block;
+  }
+  .Article-news {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Main-articleimg {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Article-news img {
+    width: 300px;
+  }
+
+  section p {
+    width: 100%;
+  }
+
+  .Judul {
+    width: 100%;
+  }
+
+  .Judul h2 {
+    width: 100%;
+  }
+  header {
+    padding: 0px;
+  }
+  h1 {
+    width: 100%;
+  }
+
+  #Navbar {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  iframe {
+    width: 200px;
+  }
+  #Menu div {
+    display: flex;
+    gap: 10px;
+  }
+  .Mainpage3 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  section {
+    display: block;
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  #Newspage {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .item {
+    height: 150px;
+  }
+
+  #wrapper {
+    width: 400px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) {
 }
